@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/Users/richie/MyFiit/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="0ad16c92100e571ae1d55630db8e42847acbc34f">
-        <dex dex="/Users/richie/MyFiit/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_51d70ec04bcac32c1df62777fd9ddabf1bc6f519/classes.dex" />
-    </item>
-
-</items>
+<items version="2" />

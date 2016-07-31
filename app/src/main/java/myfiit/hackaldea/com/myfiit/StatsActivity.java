@@ -38,8 +38,8 @@ public class StatsActivity extends AppCompatActivity {
                 .build());
 
         arcView.addEvent(new DecoEvent.Builder(25).setIndex(series1Index).setDelay(1000).build());
-        arcView.addEvent(new DecoEvent.Builder(80).setIndex(series1Index).setDelay(8000).build());
         arcView.addEvent(new DecoEvent.Builder(65).setIndex(series1Index).setDelay(11000).build());
+        arcView.addEvent(new DecoEvent.Builder(80).setIndex(series1Index).setDelay(8000).build());
 
         //arcView.addEvent(new DecoEvent.Builder(10).setIndex(series1Index).setDelay(12000).build());
     }

@@ -209,7 +209,7 @@ public class ClaseBluetooth {
         //Envia un mensaje de falla de vuelta a la actividad
         Message msg = mHandler.obtainMessage(PrincipalActivity.Mensaje_TOAST);
         Bundle bundle = new Bundle();
-        bundle.putString(PrincipalActivity.TOAST, "Se perdio conexion");
+        bundle.putString(PrincipalActivity.TOAST, "¡Adios!");
         msg.setData(bundle);
         mHandler.sendMessage(msg);
         msg = mHandler.obtainMessage(PrincipalActivity.MESSAGE_Desconectado);
