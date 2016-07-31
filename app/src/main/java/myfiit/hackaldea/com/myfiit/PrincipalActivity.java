@@ -109,6 +109,7 @@ public class PrincipalActivity extends AppCompatActivity {
         botonStats.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View vv) {
+               // if (Servicio_BT != null) Servicio_BT.stop();//Detenemos servicio
 
                 Intent i = new Intent(getBaseContext(), StatsActivity.class);
                 startActivity(i);
@@ -182,7 +183,7 @@ public class PrincipalActivity extends AppCompatActivity {
                     byte[] readBuf = (byte[]) msg.obj;//buffer de lectura...
                     //Construye un String de los bytes validos en el buffer
                     String readMessage = new String(readBuf, 0, msg.arg1);
-                    if(D) tv.setText("Data recibido: "+readMessage); Log.e(TAG, "Message_read   =w= "+ readMessage);
+                    if(D) tv.setText("Data recibido: "+readMessage);// Log.e(TAG, "Message_read   =w= "+ readMessage);
 
                     if (globito.getVisibility() == View.INVISIBLE) {
                         globito.setVisibility(View.VISIBLE);
@@ -190,10 +191,13 @@ public class PrincipalActivity extends AppCompatActivity {
 
                     if (readMessage.equals("a")){
                         mensajemonito.setText(":c");
+                        monitoimage.setImageResource(R.drawable.triste);
                     }else if (readMessage.equals("b")){
                         mensajemonito.setText(":/");
+                        monitoimage.setImageResource(R.drawable.brinca0000);
                     }else if (readMessage.equals("c")){
                         mensajemonito.setText(":)");
+                        monitoimage.setImageResource(R.drawable.brinca0021);
                     }
 
                     break;
