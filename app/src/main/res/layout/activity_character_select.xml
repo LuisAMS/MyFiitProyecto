@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo1"
+    tools:context="myfiit.hackaldea.com.myfiit.CharacterSelect">
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        android:id="@+id/imgBtn_character1"
+        android:src="@drawable/personaje1"
+        android:background="@null"
+        android:layout_below="@+id/textView"
+        android:scaleType="fitCenter"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        android:textAlignment="center"
+        android:id="@+id/imgBtn_character2"
+        android:background="@null"
+        android:src="@drawable/personaje2"
+        android:layout_below="@+id/textView"
+        android:scaleType="fitCenter"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Selecciona tu personaje"
+        android:background="@null"
+        android:id="@+id/textView"
+        android:layout_above="@+id/imageButton2"
+        android:layout_marginBottom="41dp"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textColor="@color/accent_material_light" />
+</RelativeLayout>

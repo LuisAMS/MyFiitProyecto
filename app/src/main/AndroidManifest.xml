@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myfiit.hackaldea.com.myfiit">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Intro"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Ingresa a tu cuenta" />
+        <activity
+            android:name=".CharacterSelect"
+            android:label="¡Elige tu personaje!" />
+        <activity
+            android:name=".SyncActivity"
+            android:label="@string/title_activity_sync"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrincipalActivity"
+            android:label="¡Hola!" />
+        <activity android:name=".StatsActivity"
+                  android:label="Meta del día"></activity>
+    </application>
+
+</manifest>
