@@ -1,5 +1,5 @@
 # MyFiitProyecto
-Hackathon de Aldea Digital 2016
+Finalist Project in Hackathon de Aldea Digital 2016
 
 This project is about kids health, focused on diabetics.
 Parents can check the activity via mobile App.
@@ -9,5 +9,5 @@ Parents can check the activity via mobile App.
 Prototype presentation:
 [ProjectDesing.pdf](https://github.com/richimf/MyFiitProyecto/blob/master/App%20Diseno.pdf).
 
-Prototype build in 24hrs:
+Prototype built in 24hrs:
 ![alt tag](https://github.com/richimf/MyFiitProyecto/blob/master/fotosloquillas.png)
