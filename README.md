@@ -14,4 +14,5 @@ Prototype built in 24hrs:
 
 
 Mobile App by @Richimf
+
 Device hardware & software @LuisAMS
