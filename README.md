@@ -11,3 +11,7 @@ Prototype presentation:
 
 Prototype built in 24hrs:
 ![alt tag](https://github.com/richimf/MyFiitProyecto/blob/master/fotosloquillas.png)
+
+
+Mobile App by @Richimf
+Device hardware & software @LuisAMS
